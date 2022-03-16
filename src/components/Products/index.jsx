@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 import { ProductsData } from "../../data/Data";
 
 const Products = () => {
-  /* Traemos del context la funcion para agregar un producto */
+  
   const { AddItemToCart } = useContext(CartContext);
   
   return (
